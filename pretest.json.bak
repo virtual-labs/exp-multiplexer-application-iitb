@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Multiplexers can also be referred to as universal circuit builders. State True or False.",
+    "qid": 1,
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": "a"
+  },
+  {
+    "question": "A 2:1 Multiplexer is connected as shown in figure image000. What output Boolean expression is implemented by the circuit?</br><img src='lab-manual/images/Ex5PreQ1.PNG'>",
+    "qid": 2,
+    "option_a": "Y = A.B",
+    "option_b": "Y = A+B",
+    "option_c": "Y = A`",
+    "option_d": "Y = A`.B",
+    "correct_option": "d"
+  },
+  {
+    "question": "Refer to the figure in image000. If the inputs A and B are set to 00, what is the expected output Y?",
+    "qid": 3,
+    "option_a": "logic zero",
+    "option_b": "logic one",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": "a"
+  },
+  {
+    "question": "Refer to the figure in image000.If the inputs A and B are set to 11, what is the expected output Y?",
+    "qid": 4,
+    "option_a": "logic zero",
+    "option_b": "logic one",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": "a"
+  },
+  {
+    "question": "Refer to the figure in image000.If the inputs A and B are set to 10, what is the expected output Y?",
+    "qid": 5,
+    "option_a": "logic zero",
+    "option_b": "logic one",
+    "option_c": "",
+    "option_d": "",
+    "correct_option": "b"
+  }
+]

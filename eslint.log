@@ -1,0 +1,720 @@
+
+/home/runner/work/exp-multiplexer-application-iitb/exp-multiplexer-application-iitb/experiment/simulation/JS/GATES_MUX.js
+   288:29  warning  Empty block statement                                            no-empty
+   509:13  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+   509:13  warning  Unexpected constant condition                                    no-constant-condition
+   803:29  warning  Empty block statement                                            no-empty
+   838:29  warning  Empty block statement                                            no-empty
+   991:32  warning  Unnecessary semicolon                                            no-extra-semi
+  1000:29  warning  Empty block statement                                            no-empty
+  1031:29  warning  Empty block statement                                            no-empty
+  1198:29  warning  Empty block statement                                            no-empty
+  1228:29  warning  Empty block statement                                            no-empty
+  1388:29  warning  Empty block statement                                            no-empty
+  1420:29  warning  Empty block statement                                            no-empty
+  1585:29  warning  Empty block statement                                            no-empty
+  1617:29  warning  Empty block statement                                            no-empty
+  1781:29  warning  Empty block statement                                            no-empty
+  1811:29  warning  Empty block statement                                            no-empty
+  1979:29  warning  Empty block statement                                            no-empty
+  2009:29  warning  Empty block statement                                            no-empty
+  2172:29  warning  Empty block statement                                            no-empty
+  2202:29  warning  Empty block statement                                            no-empty
+  2445:29  warning  Empty block statement                                            no-empty
+  2475:29  warning  Empty block statement                                            no-empty
+  2508:30  warning  Empty block statement                                            no-empty
+  2539:30  warning  Empty block statement                                            no-empty
+
+/home/runner/work/exp-multiplexer-application-iitb/exp-multiplexer-application-iitb/experiment/simulation/JS/GEN_MUX1.js
+     1:10   warning  'writeMessage' is defined but never used        no-unused-vars
+    44:9    warning  'message' is assigned a value but never used    no-unused-vars
+    49:10   warning  'mouseevt' is defined but never used            no-unused-vars
+    55:26   warning  'orgate' is not defined                         no-undef
+    69:26   warning  'andgate' is not defined                        no-undef
+    81:17   warning  'a1' is already defined                         no-redeclare
+    81:26   warning  'notgate' is not defined                        no-undef
+    94:17   warning  'a1' is already defined                         no-redeclare
+    94:26   warning  'norgate' is not defined                        no-undef
+   105:17   warning  'a1' is already defined                         no-redeclare
+   105:26   warning  'MUX' is not defined                            no-undef
+   118:17   warning  'a1' is already defined                         no-redeclare
+   118:26   warning  'nandgate' is not defined                       no-undef
+   131:17   warning  'a1' is already defined                         no-redeclare
+   131:26   warning  'divgate' is not defined                        no-undef
+   144:17   warning  'a1' is already defined                         no-redeclare
+   144:26   warning  'bulb' is not defined                           no-undef
+   157:17   warning  'a1' is already defined                         no-redeclare
+   157:26   warning  'dbulb' is not defined                          no-undef
+   164:17   warning  'a1' is already defined                         no-redeclare
+   164:26   warning  'bulbred' is not defined                        no-undef
+   169:13   warning  'BULBcount' is not defined                      no-undef
+   179:17   warning  'a1' is already defined                         no-redeclare
+   179:26   warning  'bulbrg' is not defined                         no-undef
+   186:17   warning  'a1' is already defined                         no-redeclare
+   186:26   warning  'outgate' is not defined                        no-undef
+   202:18   warning  'i' is not defined                              no-undef
+   202:25   warning  'i' is not defined                              no-undef
+   202:51   warning  'i' is not defined                              no-undef
+   204:34   warning  'i' is not defined                              no-undef
+   209:54   warning  'i' is not defined                              no-undef
+   209:89   warning  'i' is not defined                              no-undef
+   209:131  warning  'i' is not defined                              no-undef
+   209:166  warning  'i' is not defined                              no-undef
+   211:54   warning  'i' is not defined                              no-undef
+   222:44   warning  'i' is not defined                              no-undef
+   222:100  warning  'i' is not defined                              no-undef
+   224:50   warning  'i' is not defined                              no-undef
+   236:18   warning  'i' is not defined                              no-undef
+   236:25   warning  'i' is not defined                              no-undef
+   236:51   warning  'i' is not defined                              no-undef
+   237:34   warning  'i' is not defined                              no-undef
+   240:55   warning  'i' is not defined                              no-undef
+   240:90   warning  'i' is not defined                              no-undef
+   240:132  warning  'i' is not defined                              no-undef
+   240:167  warning  'i' is not defined                              no-undef
+   244:54   warning  'i' is not defined                              no-undef
+   259:44   warning  'i' is not defined                              no-undef
+   259:100  warning  'i' is not defined                              no-undef
+   261:50   warning  'i' is not defined                              no-undef
+   271:43   warning  'i' is not defined                              no-undef
+   283:18   warning  'i' is not defined                              no-undef
+   283:25   warning  'i' is not defined                              no-undef
+   283:51   warning  'i' is not defined                              no-undef
+   285:34   warning  'i' is not defined                              no-undef
+   290:54   warning  'i' is not defined                              no-undef
+   290:89   warning  'i' is not defined                              no-undef
+   290:131  warning  'i' is not defined                              no-undef
+   290:166  warning  'i' is not defined                              no-undef
+   292:54   warning  'i' is not defined                              no-undef
+   303:44   warning  'i' is not defined                              no-undef
+   303:100  warning  'i' is not defined                              no-undef
+   305:50   warning  'i' is not defined                              no-undef
+   317:18   warning  'i' is not defined                              no-undef
+   317:25   warning  'i' is not defined                              no-undef
+   317:51   warning  'i' is not defined                              no-undef
+   318:34   warning  'i' is not defined                              no-undef
+   321:55   warning  'i' is not defined                              no-undef
+   321:90   warning  'i' is not defined                              no-undef
+   321:132  warning  'i' is not defined                              no-undef
+   321:167  warning  'i' is not defined                              no-undef
+   325:54   warning  'i' is not defined                              no-undef
+   340:44   warning  'i' is not defined                              no-undef
+   340:100  warning  'i' is not defined                              no-undef
+   342:50   warning  'i' is not defined                              no-undef
+   352:43   warning  'i' is not defined                              no-undef
+   363:10   warning  'i' is not defined                              no-undef
+   363:17   warning  'i' is not defined                              no-undef
+   363:43   warning  'i' is not defined                              no-undef
+   365:26   warning  'i' is not defined                              no-undef
+   370:46   warning  'i' is not defined                              no-undef
+   370:81   warning  'i' is not defined                              no-undef
+   370:123  warning  'i' is not defined                              no-undef
+   370:158  warning  'i' is not defined                              no-undef
+   372:46   warning  'i' is not defined                              no-undef
+   383:36   warning  'i' is not defined                              no-undef
+   383:92   warning  'i' is not defined                              no-undef
+   385:42   warning  'i' is not defined                              no-undef
+   397:10   warning  'i' is not defined                              no-undef
+   397:17   warning  'i' is not defined                              no-undef
+   397:43   warning  'i' is not defined                              no-undef
+   398:26   warning  'i' is not defined                              no-undef
+   401:47   warning  'i' is not defined                              no-undef
+   401:82   warning  'i' is not defined                              no-undef
+   401:124  warning  'i' is not defined                              no-undef
+   401:159  warning  'i' is not defined                              no-undef
+   405:46   warning  'i' is not defined                              no-undef
+   420:36   warning  'i' is not defined                              no-undef
+   420:92   warning  'i' is not defined                              no-undef
+   422:42   warning  'i' is not defined                              no-undef
+   432:35   warning  'i' is not defined                              no-undef
+   439:10   warning  'i' is not defined                              no-undef
+   439:17   warning  'i' is not defined                              no-undef
+   439:43   warning  'i' is not defined                              no-undef
+   441:26   warning  'i' is not defined                              no-undef
+   446:46   warning  'i' is not defined                              no-undef
+   446:81   warning  'i' is not defined                              no-undef
+   446:123  warning  'i' is not defined                              no-undef
+   446:158  warning  'i' is not defined                              no-undef
+   448:46   warning  'i' is not defined                              no-undef
+   459:36   warning  'i' is not defined                              no-undef
+   459:92   warning  'i' is not defined                              no-undef
+   461:42   warning  'i' is not defined                              no-undef
+   473:10   warning  'i' is not defined                              no-undef
+   473:17   warning  'i' is not defined                              no-undef
+   473:43   warning  'i' is not defined                              no-undef
+   474:26   warning  'i' is not defined                              no-undef
+   477:47   warning  'i' is not defined                              no-undef
+   477:82   warning  'i' is not defined                              no-undef
+   477:124  warning  'i' is not defined                              no-undef
+   477:159  warning  'i' is not defined                              no-undef
+   481:46   warning  'i' is not defined                              no-undef
+   496:36   warning  'i' is not defined                              no-undef
+   496:92   warning  'i' is not defined                              no-undef
+   498:42   warning  'i' is not defined                              no-undef
+   508:35   warning  'i' is not defined                              no-undef
+   519:18   warning  'i' is not defined                              no-undef
+   519:25   warning  'i' is not defined                              no-undef
+   519:51   warning  'i' is not defined                              no-undef
+   521:34   warning  'i' is not defined                              no-undef
+   526:54   warning  'i' is not defined                              no-undef
+   526:89   warning  'i' is not defined                              no-undef
+   526:131  warning  'i' is not defined                              no-undef
+   526:166  warning  'i' is not defined                              no-undef
+   528:54   warning  'i' is not defined                              no-undef
+   539:44   warning  'i' is not defined                              no-undef
+   539:100  warning  'i' is not defined                              no-undef
+   541:50   warning  'i' is not defined                              no-undef
+   553:18   warning  'i' is not defined                              no-undef
+   553:25   warning  'i' is not defined                              no-undef
+   553:51   warning  'i' is not defined                              no-undef
+   554:34   warning  'i' is not defined                              no-undef
+   557:55   warning  'i' is not defined                              no-undef
+   557:90   warning  'i' is not defined                              no-undef
+   557:132  warning  'i' is not defined                              no-undef
+   557:167  warning  'i' is not defined                              no-undef
+   561:54   warning  'i' is not defined                              no-undef
+   576:44   warning  'i' is not defined                              no-undef
+   576:100  warning  'i' is not defined                              no-undef
+   578:50   warning  'i' is not defined                              no-undef
+   588:43   warning  'i' is not defined                              no-undef
+   595:18   warning  'i' is not defined                              no-undef
+   595:25   warning  'i' is not defined                              no-undef
+   595:51   warning  'i' is not defined                              no-undef
+   597:34   warning  'i' is not defined                              no-undef
+   602:54   warning  'i' is not defined                              no-undef
+   602:89   warning  'i' is not defined                              no-undef
+   602:131  warning  'i' is not defined                              no-undef
+   602:166  warning  'i' is not defined                              no-undef
+   604:54   warning  'i' is not defined                              no-undef
+   615:44   warning  'i' is not defined                              no-undef
+   615:100  warning  'i' is not defined                              no-undef
+   617:50   warning  'i' is not defined                              no-undef
+   629:18   warning  'i' is not defined                              no-undef
+   629:25   warning  'i' is not defined                              no-undef
+   629:51   warning  'i' is not defined                              no-undef
+   630:34   warning  'i' is not defined                              no-undef
+   633:55   warning  'i' is not defined                              no-undef
+   633:90   warning  'i' is not defined                              no-undef
+   633:132  warning  'i' is not defined                              no-undef
+   633:167  warning  'i' is not defined                              no-undef
+   637:54   warning  'i' is not defined                              no-undef
+   652:44   warning  'i' is not defined                              no-undef
+   652:100  warning  'i' is not defined                              no-undef
+   654:50   warning  'i' is not defined                              no-undef
+   664:43   warning  'i' is not defined                              no-undef
+   672:10   warning  'i' is not defined                              no-undef
+   672:17   warning  'i' is not defined                              no-undef
+   672:43   warning  'i' is not defined                              no-undef
+   674:26   warning  'i' is not defined                              no-undef
+   679:46   warning  'i' is not defined                              no-undef
+   679:81   warning  'i' is not defined                              no-undef
+   679:123  warning  'i' is not defined                              no-undef
+   679:158  warning  'i' is not defined                              no-undef
+   681:46   warning  'i' is not defined                              no-undef
+   692:36   warning  'i' is not defined                              no-undef
+   692:92   warning  'i' is not defined                              no-undef
+   694:42   warning  'i' is not defined                              no-undef
+   706:10   warning  'i' is not defined                              no-undef
+   706:17   warning  'i' is not defined                              no-undef
+   706:43   warning  'i' is not defined                              no-undef
+   707:26   warning  'i' is not defined                              no-undef
+   710:47   warning  'i' is not defined                              no-undef
+   710:82   warning  'i' is not defined                              no-undef
+   710:124  warning  'i' is not defined                              no-undef
+   710:159  warning  'i' is not defined                              no-undef
+   714:46   warning  'i' is not defined                              no-undef
+   729:36   warning  'i' is not defined                              no-undef
+   729:92   warning  'i' is not defined                              no-undef
+   731:42   warning  'i' is not defined                              no-undef
+   741:35   warning  'i' is not defined                              no-undef
+   748:14   warning  'i' is not defined                              no-undef
+   748:21   warning  'i' is not defined                              no-undef
+   748:47   warning  'i' is not defined                              no-undef
+   750:30   warning  'i' is not defined                              no-undef
+   755:50   warning  'i' is not defined                              no-undef
+   755:85   warning  'i' is not defined                              no-undef
+   755:127  warning  'i' is not defined                              no-undef
+   755:162  warning  'i' is not defined                              no-undef
+   757:50   warning  'i' is not defined                              no-undef
+   768:40   warning  'i' is not defined                              no-undef
+   768:96   warning  'i' is not defined                              no-undef
+   770:46   warning  'i' is not defined                              no-undef
+   782:14   warning  'i' is not defined                              no-undef
+   782:21   warning  'i' is not defined                              no-undef
+   782:47   warning  'i' is not defined                              no-undef
+   783:30   warning  'i' is not defined                              no-undef
+   786:51   warning  'i' is not defined                              no-undef
+   786:86   warning  'i' is not defined                              no-undef
+   786:128  warning  'i' is not defined                              no-undef
+   786:163  warning  'i' is not defined                              no-undef
+   790:50   warning  'i' is not defined                              no-undef
+   805:40   warning  'i' is not defined                              no-undef
+   805:96   warning  'i' is not defined                              no-undef
+   807:46   warning  'i' is not defined                              no-undef
+   817:39   warning  'i' is not defined                              no-undef
+   826:14   warning  'i' is not defined                              no-undef
+   826:21   warning  'i' is not defined                              no-undef
+   826:50   warning  'i' is not defined                              no-undef
+   827:43   warning  'i' is not defined                              no-undef
+   827:96   warning  'i' is not defined                              no-undef
+   829:49   warning  'i' is not defined                              no-undef
+   844:10   warning  'addorgate' is defined but never used           no-unused-vars
+   853:10   warning  'addandgate' is defined but never used          no-unused-vars
+   859:10   warning  'addnotgate' is defined but never used          no-unused-vars
+   865:10   warning  'addnorgate' is defined but never used          no-unused-vars
+   871:10   warning  'addMUXgate' is defined but never used          no-unused-vars
+   877:10   warning  'addnandgate' is defined but never used         no-unused-vars
+   883:10   warning  'adddivgate' is defined but never used          no-unused-vars
+   886:9    warning  'Ycount' is not defined                         no-undef
+   890:10   warning  'addbulbgate' is defined but never used         no-unused-vars
+   896:10   warning  'adddbulbgate' is defined but never used        no-unused-vars
+   899:10   warning  'addbulredbgate' is defined but never used      no-unused-vars
+   905:10   warning  'addbulbrggate' is defined but never used       no-unused-vars
+   909:10   warning  'connector1' is defined but never used          no-unused-vars
+   918:10   warning  'connector2' is defined but never used          no-unused-vars
+   927:10   warning  'connector3' is defined but never used          no-unused-vars
+   936:10   warning  'connector4' is defined but never used          no-unused-vars
+   947:10   warning  'connectorS_output1' is defined but never used  no-unused-vars
+   957:10   warning  'connectorE_output1' is defined but never used  no-unused-vars
+   966:10   warning  'connectorS_output2' is defined but never used  no-unused-vars
+   976:10   warning  'connectorE_output2' is defined but never used  no-unused-vars
+   986:10   warning  'addoutgate' is defined but never used          no-unused-vars
+   994:10   warning  'i' is not defined                              no-undef
+   994:17   warning  'i' is not defined                              no-undef
+   994:43   warning  'i' is not defined                              no-undef
+   995:32   warning  'i' is not defined                              no-undef
+   998:10   warning  'i' is not defined                              no-undef
+   998:17   warning  'i' is not defined                              no-undef
+   998:38   warning  'i' is not defined                              no-undef
+   999:13   warning  'a1' is already defined                         no-redeclare
+   999:27   warning  'i' is not defined                              no-undef
+  1000:27   warning  'i' is not defined                              no-undef
+  1001:31   warning  'i' is not defined                              no-undef
+  1002:30   warning  'i' is not defined                              no-undef
+  1012:10   warning  'startsim1' is defined but never used           no-unused-vars
+  1015:10   warning  'i' is not defined                              no-undef
+  1015:17   warning  'i' is not defined                              no-undef
+  1015:46   warning  'i' is not defined                              no-undef
+  1016:41   warning  'i' is not defined                              no-undef
+  1021:10   warning  'stopsim1' is defined but never used            no-unused-vars
+  1026:10   warning  'reset' is defined but never used               no-unused-vars
+  1069:10   warning  'undoGate' is defined but never used            no-unused-vars
+  1125:10   warning  'undoConnection' is defined but never used      no-unused-vars
+  1146:10   warning  'redoGate' is defined but never used            no-unused-vars
+  1219:10   warning  'redoConnection' is defined but never used      no-unused-vars
+
+/home/runner/work/exp-multiplexer-application-iitb/exp-multiplexer-application-iitb/experiment/simulation/JS/MUX_outputgate.js
+   85:9   warning  'y3' is assigned a value but never used  no-unused-vars
+  129:29  warning  Empty block statement                    no-empty
+  161:29  warning  Empty block statement                    no-empty
+
+/home/runner/work/exp-multiplexer-application-iitb/exp-multiplexer-application-iitb/experiment/simulation/JS/mouseevent.ob.js
+  1:255  warning  'writeMessage' is defined but never used       no-unused-vars
+  1:684  warning  'canvas' is not defined                        no-undef
+  1:760  warning  'canvas' is not defined                        no-undef
+  1:781  warning  '_0x106F4' is assigned a value but never used  no-unused-vars
+  1:869  warning  'canvas' is not defined                        no-undef
+  1:974  warning  'canvas' is not defined                        no-undef
+  1:991  warning  'mouseevt' is not defined                      no-undef
+
+/home/runner/work/exp-multiplexer-application-iitb/exp-multiplexer-application-iitb/experiment/simulation/common_libraries/js/ts_components/collapse_step.js
+   1:10  warning  'show_step' is defined but never used                 no-unused-vars
+   2:5   warning  '$' is not defined                                    no-undef
+   3:9   warning  '$' is not defined                                    no-undef
+   6:10  warning  'hide_step' is defined but never used                 no-unused-vars
+   7:5   warning  '$' is not defined                                    no-undef
+   8:9   warning  '$' is not defined                                    no-undef
+  11:10  warning  'get_collapse_btn_text' is defined but never used     no-unused-vars
+  20:10  warning  'get_collapse_btn_element' is defined but never used  no-unused-vars
+  29:10  warning  'hide_all_steps' is defined but never used            no-unused-vars
+  31:9   warning  '$' is not defined                                    no-undef
+
+/home/runner/work/exp-multiplexer-application-iitb/exp-multiplexer-application-iitb/experiment/simulation/common_libraries/js/ts_components/matrix.js
+   27:26  warning  'MathJax' is not defined                                no-undef
+   32:7   warning  'Matrix_Without_String' is defined but never used       no-unused-vars
+   52:26  warning  'MathJax' is not defined                                no-undef
+   56:10  warning  'get_matrix_html' is defined but never used             no-unused-vars
+   87:13  warning  'row_html' is assigned a value but never used           no-unused-vars
+   99:10  warning  'get_matrix_html_with_title' is defined but never used  no-unused-vars
+  131:13  warning  'row_html' is assigned a value but never used           no-unused-vars
+  143:10  warning  'convert_2d_to_1d_vector' is defined but never used     no-unused-vars
+  156:10  warning  'convert_1d_to_2d_matrix' is defined but never used     no-unused-vars
+
+/home/runner/work/exp-multiplexer-application-iitb/exp-multiplexer-application-iitb/experiment/simulation/common_libraries/js/ts_components/matrix_2d.js
+    2:10  warning  'toLatexBMatrix' is defined but never used              no-unused-vars
+   29:10  warning  'toLatexDeterminant' is defined but never used          no-unused-vars
+   61:10  warning  'renderMatrixInputs' is defined but never used          no-unused-vars
+  111:10  warning  'readMatrix2D' is defined but never used                no-unused-vars
+  130:10  warning  'verifyMatrix2D' is defined but never used              no-unused-vars
+  141:18  warning  'verify_values' is not defined                          no-undef
+  148:10  warning  'transposeMatrix' is defined but never used             no-unused-vars
+  165:10  warning  'multiplyMatrices' is defined but never used            no-unused-vars
+  200:10  warning  'inverseMatrix' is defined but never used               no-unused-vars
+  255:10  warning  'determinant' is defined but never used                 no-unused-vars
+  305:10  warning  'convertMatrixInputsToSpans' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-multiplexer-application-iitb/exp-multiplexer-application-iitb/experiment/simulation/common_libraries/js/ts_components/pannel.js
+  8:7  warning  'Pannel' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-multiplexer-application-iitb/exp-multiplexer-application-iitb/experiment/simulation/common_libraries/js/ts_components/questions.js
+   6:17  warning  'op1' is assigned a value but never used      no-unused-vars
+   7:17  warning  'op2' is assigned a value but never used      no-unused-vars
+   8:17  warning  'op3' is assigned a value but never used      no-unused-vars
+   9:17  warning  'op4' is assigned a value but never used      no-unused-vars
+  94:7   warning  'Question_Options' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-multiplexer-application-iitb/exp-multiplexer-application-iitb/experiment/simulation/common_libraries/js/ts_components/tables.js
+   19:22  warning  'verify_values' is not defined                                     no-undef
+  137:22  warning  'verify_values' is not defined                                     no-undef
+  260:7   warning  'Verify_Rows_Cols_6_decimal_places' is defined but never used      no-unused-vars
+  311:22  warning  'verify_values' is not defined                                     no-undef
+  416:7   warning  'Verify_Rows_Cols_Custom_Fixed_Update1' is defined but never used  no-unused-vars
+  468:7   warning  'Show_Table_Custom_Fixed' is defined but never used                no-unused-vars
+  506:7   warning  'Verify_Rows_Cols_Strings' is defined but never used               no-unused-vars
+  527:22  warning  'verify_values' is not defined                                     no-undef
+  663:7   warning  'Display_Table' is defined but never used                          no-unused-vars
+
+/home/runner/work/exp-multiplexer-application-iitb/exp-multiplexer-application-iitb/experiment/simulation/common_libraries/js/ts_math_library/general_math_functions.js
+    1:10  warning  'verify_values' is defined but never used                   no-unused-vars
+   17:10  warning  'random1' is defined but never used                         no-unused-vars
+   21:10  warning  'std_deviation' is defined but never used                   no-unused-vars
+   26:10  warning  'gauss' is defined but never used                           no-unused-vars
+   56:10  warning  'hide_panel' is defined but never used                      no-unused-vars
+   63:10  warning  'inverse_matrix' is defined but never used                  no-unused-vars
+   96:10  warning  'matrix_multiplication' is defined but never used           no-unused-vars
+  113:10  warning  'transpose_matrix' is defined but never used                no-unused-vars
+  123:10  warning  'matrix_multiplication_8decimal' is defined but never used  no-unused-vars
+  140:10  warning  'adjoint_2x2_matrix' is defined but never used              no-unused-vars
+  145:10  warning  'find_deteminant' is defined but never used                 no-unused-vars
+  174:10  warning  'get_Submatrix' is defined but never used                   no-unused-vars
+
+/home/runner/work/exp-multiplexer-application-iitb/exp-multiplexer-application-iitb/experiment/simulation/common_libraries/js/ts_math_library/regression.js
+   1:10  warning  'regression_linear' is defined but never used            no-unused-vars
+  18:10  warning  'regression_linear_1variable' is defined but never used  no-unused-vars
+  27:10  warning  'regression_linear_2variable' is defined but never used  no-unused-vars
+  52:11  warning  'gauss' is not defined                                   no-undef
+
+/home/runner/work/exp-multiplexer-application-iitb/exp-multiplexer-application-iitb/experiment/simulation/common_libraries/math.ob.js
+  1:745  warning  'b' is already defined  no-redeclare
+
+/home/runner/work/exp-multiplexer-application-iitb/exp-multiplexer-application-iitb/experiment/simulation/js/simulation/JS/GATES_MUX.js
+   235:29  warning  Empty block statement                                            no-empty
+   405:14  warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+   405:14  warning  Unexpected constant condition                                    no-constant-condition
+   625:29  warning  Empty block statement                                            no-empty
+   648:29  warning  Empty block statement                                            no-empty
+   768:5   warning  Unnecessary semicolon                                            no-extra-semi
+   774:29  warning  Empty block statement                                            no-empty
+   796:29  warning  Empty block statement                                            no-empty
+   931:29  warning  Empty block statement                                            no-empty
+   954:29  warning  Empty block statement                                            no-empty
+  1079:29  warning  Empty block statement                                            no-empty
+  1101:29  warning  Empty block statement                                            no-empty
+  1232:29  warning  Empty block statement                                            no-empty
+  1254:29  warning  Empty block statement                                            no-empty
+  1384:29  warning  Empty block statement                                            no-empty
+  1406:29  warning  Empty block statement                                            no-empty
+  1538:29  warning  Empty block statement                                            no-empty
+  1560:29  warning  Empty block statement                                            no-empty
+  1690:29  warning  Empty block statement                                            no-empty
+  1712:29  warning  Empty block statement                                            no-empty
+  1905:29  warning  Empty block statement                                            no-empty
+  1927:29  warning  Empty block statement                                            no-empty
+  1953:30  warning  Empty block statement                                            no-empty
+  1975:30  warning  Empty block statement                                            no-empty
+
+/home/runner/work/exp-multiplexer-application-iitb/exp-multiplexer-application-iitb/experiment/simulation/js/simulation/JS/GEN_MUX1.js
+    1:10   warning  'writeMessage' is defined but never used        no-unused-vars
+   41:9    warning  'message' is assigned a value but never used    no-unused-vars
+   44:10   warning  'mouseevt' is defined but never used            no-unused-vars
+   48:26   warning  'orgate' is not defined                         no-undef
+   60:26   warning  'andgate' is not defined                        no-undef
+   72:17   warning  'a1' is already defined                         no-redeclare
+   72:26   warning  'notgate' is not defined                        no-undef
+   84:17   warning  'a1' is already defined                         no-redeclare
+   84:26   warning  'norgate' is not defined                        no-undef
+   93:17   warning  'a1' is already defined                         no-redeclare
+   93:26   warning  'MUX' is not defined                            no-undef
+  105:17   warning  'a1' is already defined                         no-redeclare
+  105:26   warning  'nandgate' is not defined                       no-undef
+  117:17   warning  'a1' is already defined                         no-redeclare
+  117:26   warning  'divgate' is not defined                        no-undef
+  129:17   warning  'a1' is already defined                         no-redeclare
+  129:26   warning  'bulb' is not defined                           no-undef
+  141:17   warning  'a1' is already defined                         no-redeclare
+  141:26   warning  'dbulb' is not defined                          no-undef
+  148:17   warning  'a1' is already defined                         no-redeclare
+  148:26   warning  'bulbred' is not defined                        no-undef
+  153:13   warning  'BULBcount' is not defined                      no-undef
+  163:17   warning  'a1' is already defined                         no-redeclare
+  163:26   warning  'bulbrg' is not defined                         no-undef
+  170:17   warning  'a1' is already defined                         no-redeclare
+  170:26   warning  'outgate' is not defined                        no-undef
+  183:18   warning  'i' is not defined                              no-undef
+  183:25   warning  'i' is not defined                              no-undef
+  183:51   warning  'i' is not defined                              no-undef
+  184:35   warning  'i' is not defined                              no-undef
+  185:52   warning  'i' is not defined                              no-undef
+  185:88   warning  'i' is not defined                              no-undef
+  185:129  warning  'i' is not defined                              no-undef
+  185:165  warning  'i' is not defined                              no-undef
+  187:54   warning  'i' is not defined                              no-undef
+  196:48   warning  'i' is not defined                              no-undef
+  196:104  warning  'i' is not defined                              no-undef
+  198:54   warning  'i' is not defined                              no-undef
+  206:18   warning  'i' is not defined                              no-undef
+  206:25   warning  'i' is not defined                              no-undef
+  206:51   warning  'i' is not defined                              no-undef
+  207:35   warning  'i' is not defined                              no-undef
+  208:52   warning  'i' is not defined                              no-undef
+  208:88   warning  'i' is not defined                              no-undef
+  208:129  warning  'i' is not defined                              no-undef
+  208:165  warning  'i' is not defined                              no-undef
+  210:54   warning  'i' is not defined                              no-undef
+  223:48   warning  'i' is not defined                              no-undef
+  223:104  warning  'i' is not defined                              no-undef
+  225:54   warning  'i' is not defined                              no-undef
+  235:43   warning  'i' is not defined                              no-undef
+  240:18   warning  'i' is not defined                              no-undef
+  240:25   warning  'i' is not defined                              no-undef
+  240:51   warning  'i' is not defined                              no-undef
+  241:35   warning  'i' is not defined                              no-undef
+  242:52   warning  'i' is not defined                              no-undef
+  242:88   warning  'i' is not defined                              no-undef
+  242:129  warning  'i' is not defined                              no-undef
+  242:165  warning  'i' is not defined                              no-undef
+  244:54   warning  'i' is not defined                              no-undef
+  253:48   warning  'i' is not defined                              no-undef
+  253:104  warning  'i' is not defined                              no-undef
+  255:54   warning  'i' is not defined                              no-undef
+  263:18   warning  'i' is not defined                              no-undef
+  263:25   warning  'i' is not defined                              no-undef
+  263:51   warning  'i' is not defined                              no-undef
+  264:35   warning  'i' is not defined                              no-undef
+  265:52   warning  'i' is not defined                              no-undef
+  265:88   warning  'i' is not defined                              no-undef
+  265:129  warning  'i' is not defined                              no-undef
+  265:165  warning  'i' is not defined                              no-undef
+  267:54   warning  'i' is not defined                              no-undef
+  280:48   warning  'i' is not defined                              no-undef
+  280:104  warning  'i' is not defined                              no-undef
+  282:54   warning  'i' is not defined                              no-undef
+  292:43   warning  'i' is not defined                              no-undef
+  298:18   warning  'i' is not defined                              no-undef
+  298:25   warning  'i' is not defined                              no-undef
+  298:51   warning  'i' is not defined                              no-undef
+  299:35   warning  'i' is not defined                              no-undef
+  300:52   warning  'i' is not defined                              no-undef
+  300:88   warning  'i' is not defined                              no-undef
+  300:129  warning  'i' is not defined                              no-undef
+  300:165  warning  'i' is not defined                              no-undef
+  302:54   warning  'i' is not defined                              no-undef
+  311:48   warning  'i' is not defined                              no-undef
+  311:104  warning  'i' is not defined                              no-undef
+  313:54   warning  'i' is not defined                              no-undef
+  321:18   warning  'i' is not defined                              no-undef
+  321:25   warning  'i' is not defined                              no-undef
+  321:51   warning  'i' is not defined                              no-undef
+  322:35   warning  'i' is not defined                              no-undef
+  323:52   warning  'i' is not defined                              no-undef
+  323:88   warning  'i' is not defined                              no-undef
+  323:129  warning  'i' is not defined                              no-undef
+  323:165  warning  'i' is not defined                              no-undef
+  325:54   warning  'i' is not defined                              no-undef
+  338:48   warning  'i' is not defined                              no-undef
+  338:104  warning  'i' is not defined                              no-undef
+  340:54   warning  'i' is not defined                              no-undef
+  350:43   warning  'i' is not defined                              no-undef
+  356:18   warning  'i' is not defined                              no-undef
+  356:25   warning  'i' is not defined                              no-undef
+  356:51   warning  'i' is not defined                              no-undef
+  357:35   warning  'i' is not defined                              no-undef
+  358:52   warning  'i' is not defined                              no-undef
+  358:88   warning  'i' is not defined                              no-undef
+  358:129  warning  'i' is not defined                              no-undef
+  358:165  warning  'i' is not defined                              no-undef
+  360:54   warning  'i' is not defined                              no-undef
+  369:48   warning  'i' is not defined                              no-undef
+  369:104  warning  'i' is not defined                              no-undef
+  371:54   warning  'i' is not defined                              no-undef
+  379:18   warning  'i' is not defined                              no-undef
+  379:25   warning  'i' is not defined                              no-undef
+  379:51   warning  'i' is not defined                              no-undef
+  380:35   warning  'i' is not defined                              no-undef
+  381:52   warning  'i' is not defined                              no-undef
+  381:88   warning  'i' is not defined                              no-undef
+  381:129  warning  'i' is not defined                              no-undef
+  381:165  warning  'i' is not defined                              no-undef
+  383:54   warning  'i' is not defined                              no-undef
+  396:48   warning  'i' is not defined                              no-undef
+  396:104  warning  'i' is not defined                              no-undef
+  398:54   warning  'i' is not defined                              no-undef
+  408:43   warning  'i' is not defined                              no-undef
+  414:18   warning  'i' is not defined                              no-undef
+  414:25   warning  'i' is not defined                              no-undef
+  414:51   warning  'i' is not defined                              no-undef
+  415:35   warning  'i' is not defined                              no-undef
+  416:52   warning  'i' is not defined                              no-undef
+  416:88   warning  'i' is not defined                              no-undef
+  416:129  warning  'i' is not defined                              no-undef
+  416:165  warning  'i' is not defined                              no-undef
+  418:54   warning  'i' is not defined                              no-undef
+  427:48   warning  'i' is not defined                              no-undef
+  427:104  warning  'i' is not defined                              no-undef
+  429:54   warning  'i' is not defined                              no-undef
+  437:18   warning  'i' is not defined                              no-undef
+  437:25   warning  'i' is not defined                              no-undef
+  437:51   warning  'i' is not defined                              no-undef
+  438:35   warning  'i' is not defined                              no-undef
+  439:52   warning  'i' is not defined                              no-undef
+  439:88   warning  'i' is not defined                              no-undef
+  439:129  warning  'i' is not defined                              no-undef
+  439:165  warning  'i' is not defined                              no-undef
+  441:54   warning  'i' is not defined                              no-undef
+  454:48   warning  'i' is not defined                              no-undef
+  454:104  warning  'i' is not defined                              no-undef
+  456:54   warning  'i' is not defined                              no-undef
+  466:43   warning  'i' is not defined                              no-undef
+  472:18   warning  'i' is not defined                              no-undef
+  472:25   warning  'i' is not defined                              no-undef
+  472:51   warning  'i' is not defined                              no-undef
+  473:35   warning  'i' is not defined                              no-undef
+  474:52   warning  'i' is not defined                              no-undef
+  474:88   warning  'i' is not defined                              no-undef
+  474:129  warning  'i' is not defined                              no-undef
+  474:165  warning  'i' is not defined                              no-undef
+  476:54   warning  'i' is not defined                              no-undef
+  485:48   warning  'i' is not defined                              no-undef
+  485:104  warning  'i' is not defined                              no-undef
+  487:54   warning  'i' is not defined                              no-undef
+  495:18   warning  'i' is not defined                              no-undef
+  495:25   warning  'i' is not defined                              no-undef
+  495:51   warning  'i' is not defined                              no-undef
+  496:35   warning  'i' is not defined                              no-undef
+  497:52   warning  'i' is not defined                              no-undef
+  497:88   warning  'i' is not defined                              no-undef
+  497:129  warning  'i' is not defined                              no-undef
+  497:165  warning  'i' is not defined                              no-undef
+  499:54   warning  'i' is not defined                              no-undef
+  512:48   warning  'i' is not defined                              no-undef
+  512:104  warning  'i' is not defined                              no-undef
+  514:54   warning  'i' is not defined                              no-undef
+  524:43   warning  'i' is not defined                              no-undef
+  530:18   warning  'i' is not defined                              no-undef
+  530:25   warning  'i' is not defined                              no-undef
+  530:51   warning  'i' is not defined                              no-undef
+  531:35   warning  'i' is not defined                              no-undef
+  532:52   warning  'i' is not defined                              no-undef
+  532:88   warning  'i' is not defined                              no-undef
+  532:129  warning  'i' is not defined                              no-undef
+  532:165  warning  'i' is not defined                              no-undef
+  534:54   warning  'i' is not defined                              no-undef
+  543:48   warning  'i' is not defined                              no-undef
+  543:104  warning  'i' is not defined                              no-undef
+  545:54   warning  'i' is not defined                              no-undef
+  553:18   warning  'i' is not defined                              no-undef
+  553:25   warning  'i' is not defined                              no-undef
+  553:51   warning  'i' is not defined                              no-undef
+  554:35   warning  'i' is not defined                              no-undef
+  555:52   warning  'i' is not defined                              no-undef
+  555:88   warning  'i' is not defined                              no-undef
+  555:129  warning  'i' is not defined                              no-undef
+  555:165  warning  'i' is not defined                              no-undef
+  557:54   warning  'i' is not defined                              no-undef
+  570:48   warning  'i' is not defined                              no-undef
+  570:104  warning  'i' is not defined                              no-undef
+  572:54   warning  'i' is not defined                              no-undef
+  582:43   warning  'i' is not defined                              no-undef
+  588:18   warning  'i' is not defined                              no-undef
+  588:25   warning  'i' is not defined                              no-undef
+  588:51   warning  'i' is not defined                              no-undef
+  589:35   warning  'i' is not defined                              no-undef
+  590:52   warning  'i' is not defined                              no-undef
+  590:88   warning  'i' is not defined                              no-undef
+  590:129  warning  'i' is not defined                              no-undef
+  590:165  warning  'i' is not defined                              no-undef
+  592:54   warning  'i' is not defined                              no-undef
+  601:48   warning  'i' is not defined                              no-undef
+  601:104  warning  'i' is not defined                              no-undef
+  603:54   warning  'i' is not defined                              no-undef
+  611:18   warning  'i' is not defined                              no-undef
+  611:25   warning  'i' is not defined                              no-undef
+  611:51   warning  'i' is not defined                              no-undef
+  612:35   warning  'i' is not defined                              no-undef
+  613:52   warning  'i' is not defined                              no-undef
+  613:88   warning  'i' is not defined                              no-undef
+  613:129  warning  'i' is not defined                              no-undef
+  613:165  warning  'i' is not defined                              no-undef
+  615:54   warning  'i' is not defined                              no-undef
+  628:48   warning  'i' is not defined                              no-undef
+  628:104  warning  'i' is not defined                              no-undef
+  630:54   warning  'i' is not defined                              no-undef
+  640:43   warning  'i' is not defined                              no-undef
+  646:14   warning  'i' is not defined                              no-undef
+  646:21   warning  'i' is not defined                              no-undef
+  646:50   warning  'i' is not defined                              no-undef
+  647:43   warning  'i' is not defined                              no-undef
+  647:96   warning  'i' is not defined                              no-undef
+  648:49   warning  'i' is not defined                              no-undef
+  661:10   warning  'addorgate' is defined but never used           no-unused-vars
+  667:10   warning  'addandgate' is defined but never used          no-unused-vars
+  673:10   warning  'addnotgate' is defined but never used          no-unused-vars
+  679:10   warning  'addnorgate' is defined but never used          no-unused-vars
+  685:10   warning  'addMUXgate' is defined but never used          no-unused-vars
+  691:10   warning  'addnandgate' is defined but never used         no-unused-vars
+  697:10   warning  'adddivgate' is defined but never used          no-unused-vars
+  700:9    warning  'Ycount' is not defined                         no-undef
+  704:10   warning  'addbulbgate' is defined but never used         no-unused-vars
+  710:10   warning  'adddbulbgate' is defined but never used        no-unused-vars
+  713:10   warning  'addbulredbgate' is defined but never used      no-unused-vars
+  719:10   warning  'addbulbrggate' is defined but never used       no-unused-vars
+  722:10   warning  'connector1' is defined but never used          no-unused-vars
+  731:10   warning  'connector2' is defined but never used          no-unused-vars
+  740:10   warning  'connector3' is defined but never used          no-unused-vars
+  749:10   warning  'connector4' is defined but never used          no-unused-vars
+  759:10   warning  'connectorS_output1' is defined but never used  no-unused-vars
+  768:10   warning  'connectorE_output1' is defined but never used  no-unused-vars
+  777:10   warning  'connectorS_output2' is defined but never used  no-unused-vars
+  786:10   warning  'connectorE_output2' is defined but never used  no-unused-vars
+  795:10   warning  'addoutgate' is defined but never used          no-unused-vars
+  803:10   warning  'i' is not defined                              no-undef
+  803:17   warning  'i' is not defined                              no-undef
+  803:43   warning  'i' is not defined                              no-undef
+  804:32   warning  'i' is not defined                              no-undef
+  807:10   warning  'i' is not defined                              no-undef
+  807:17   warning  'i' is not defined                              no-undef
+  807:38   warning  'i' is not defined                              no-undef
+  808:13   warning  'a1' is already defined                         no-redeclare
+  808:27   warning  'i' is not defined                              no-undef
+  809:27   warning  'i' is not defined                              no-undef
+  810:31   warning  'i' is not defined                              no-undef
+  811:30   warning  'i' is not defined                              no-undef
+  820:10   warning  'startsim1' is defined but never used           no-unused-vars
+  823:10   warning  'i' is not defined                              no-undef
+  823:17   warning  'i' is not defined                              no-undef
+  823:46   warning  'i' is not defined                              no-undef
+  824:41   warning  'i' is not defined                              no-undef
+  828:10   warning  'stopsim1' is defined but never used            no-unused-vars
+  832:10   warning  'reset' is defined but never used               no-unused-vars
+  869:10   warning  'undoGate' is defined but never used            no-unused-vars
+  914:10   warning  'undoConnection' is defined but never used      no-unused-vars
+  929:10   warning  'redoGate' is defined but never used            no-unused-vars
+  984:10   warning  'redoConnection' is defined but never used      no-unused-vars
+
+/home/runner/work/exp-multiplexer-application-iitb/exp-multiplexer-application-iitb/experiment/simulation/js/simulation/JS/MUX_outputgate.js
+   64:9   warning  'y3' is assigned a value but never used  no-unused-vars
+   99:29  warning  Empty block statement                    no-empty
+  121:29  warning  Empty block statement                    no-empty
+
+/home/runner/work/exp-multiplexer-application-iitb/exp-multiplexer-application-iitb/experiment/simulation/js/simulation/JS/mouseevent.ob.js
+  2:10   warning  'writeMessage' is defined but never used       no-unused-vars
+  4:1    warning  'canvas' is not defined                        no-undef
+  4:83   warning  'canvas' is not defined                        no-undef
+  4:106  warning  '_0x106F4' is assigned a value but never used  no-unused-vars
+  5:1    warning  'canvas' is not defined                        no-undef
+  6:60   warning  'canvas' is not defined                        no-undef
+  6:79   warning  'mouseevt' is not defined                      no-undef
+
+✖ 682 problems (0 errors, 682 warnings)
+  0 errors and 2 warnings potentially fixable with the `--fix` option.
+
