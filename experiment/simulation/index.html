@@ -1,13 +1,771 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8"/>
+        <style>
+            #CONTROL{
+                float: left;
+                width: 25%;
+                height: 800;
+            }
+            #mycanvas{
+                float: left;
+            }
+            #tt{
+                float:right;
+            }
+            #truthtable{
+                border: 1px solid; 
+                
+            }
+            .truth_table td,th{
+                border: 1px solid black;
+                padding: 10px;
+                border-collapse: collapse;
+                
+            }
+            .truth_table {
+                border-collapse: collapse;
+            }
+            </style>
+            <style>
+                table,th{
+                        border: 1px solid; 
+                        
+                    }
+                </style>
+    </head>
+    <body onload="init();">
+        <div style="display: block" id="d0">
+            <center>
+                <table>
+                    <tr>
+                        <td>
+                            <p>
+                                <label id="Que" style="font-size: 26px;color: rgb(83, 10, 255); text-align:left"></label>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <center>
+                                    <canvas id="testCanvas" width="500" height="250" style="border: solid;"></canvas>
+                            </center>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <center>
+                                    <input id="buttonNext" type="button" onclick="gotodiv1();" value="Click to begin" style="background-repeat:no-repeat;height:50px;width:500px;background-position:left;background-size:70px 50px;text-align:center;color:black;font-weight: bold;" />
+                            </center>  
+                        </td>
+                    </tr>
+                </table>
+            </center>
+            <script>
+                var questionCount = 0;
+                 var CANVAS1 = document.getElementById("testCanvas");
+                 var CONTEXT1 = CANVAS1.getContext("2d");
+                 var Que = document.getElementById("Que");
+                 var qP = ["Application of Multiplexers - 4:1 MUX using 2:1 MUX"];
+                function sendSms(sms) {
+                    document.getElementById("Que").innerHTML = sms;
+                }
+                function init()
+                {
+                    sendSms(qP[questionCount]);
+                    //first rectangle
+                    CONTEXT1.beginPath();
+                    CONTEXT1.rect(150,30,50,70);
+                    CONTEXT1.strokeStyle="black";
+                    context.lineWidth = 3;
+                    CONTEXT1.stroke();
+                    //line for B
+                    CONTEXT1.beginPath();
+                    CONTEXT1.moveTo(175,20);
+                    CONTEXT1.lineTo(175,30);
+                    CONTEXT1.strokeStyle="black";
+                    context.lineWidth = 3;
+                    CONTEXT1.stroke();
+                    //line for D0
+                    CONTEXT1.beginPath();
+                    CONTEXT1.moveTo(130,50);
+                    CONTEXT1.lineTo(150,50);
+                    CONTEXT1.strokeStyle="black";
+                    context.lineWidth = 3;
+                    CONTEXT1.stroke();
+                    //line for D1
+                    CONTEXT1.beginPath();
+                    CONTEXT1.moveTo(130,80);
+                    CONTEXT1.lineTo(150,80);
+                    CONTEXT1.strokeStyle="black";
+                    context.lineWidth = 3;
+                    CONTEXT1.stroke();
+                    //lines to join first rect to main rect
+                    CONTEXT1.beginPath();
+                    CONTEXT1.moveTo(200,65);
+                    CONTEXT1.lineTo(230,65);
+                    CONTEXT1.moveTo(230,65);
+                    CONTEXT1.lineTo(230,100);
+                    CONTEXT1.moveTo(230,100);
+                    CONTEXT1.lineTo(260,100);
+                    CONTEXT1.strokeStyle="black";
+                    context.lineWidth = 3;
+                    CONTEXT1.stroke();
+                    //second rect
+                    CONTEXT1.beginPath();
+                    CONTEXT1.rect(150,120,50,70);
+                    CONTEXT1.strokeStyle="black";
+                    context.lineWidth = 3;
+                    CONTEXT1.stroke();
+                    //line for D2
+                    CONTEXT1.beginPath();
+                    CONTEXT1.moveTo(130,140);
+                    CONTEXT1.lineTo(150,140);
+                    CONTEXT1.strokeStyle="black";
+                    context.lineWidth = 3;
+                    CONTEXT1.stroke();
+                    //line for D3
+                    CONTEXT1.beginPath();
+                    CONTEXT1.moveTo(130,170);
+                    CONTEXT1.lineTo(150,170);
+                    CONTEXT1.strokeStyle="black";
+                    context.lineWidth = 3;
+                    CONTEXT1.stroke();
+                    //select line for second rect
+                    CONTEXT1.beginPath();
+                    CONTEXT1.moveTo(175,190);
+                    CONTEXT1.lineTo(175,200);
+                    CONTEXT1.strokeStyle="black";
+                    context.lineWidth = 3;
+                    CONTEXT1.stroke();
+                    //lines to join second rect to main rect
+                    CONTEXT1.beginPath();
+                    CONTEXT1.moveTo(200,155);
+                    CONTEXT1.lineTo(230,155);
+                    CONTEXT1.moveTo(230,155);
+                    CONTEXT1.lineTo(230,125);
+                    CONTEXT1.moveTo(230,125);
+                    CONTEXT1.lineTo(260,125);
+                    CONTEXT1.strokeStyle="black";
+                    context.lineWidth = 3;
+                    CONTEXT1.stroke();
+                    //main rectangle
+                    CONTEXT1.beginPath();
+                    CONTEXT1.rect(260,80,50,70);
+                    CONTEXT1.strokeStyle="black";
+                    context.lineWidth = 3;
+                    CONTEXT1.stroke();
+                    //Line for A
+                    CONTEXT1.beginPath();
+                    CONTEXT1.moveTo(285,70);
+                    CONTEXT1.lineTo(285,80);
+                    CONTEXT1.strokeStyle="black";
+                    context.lineWidth = 3;
+                    CONTEXT1.stroke();
+                    //Line for Y
+                    CONTEXT1.beginPath();
+                    CONTEXT1.moveTo(310,115);
+                    CONTEXT1.lineTo(345,115);
+                    CONTEXT1.strokeStyle="black";
+                    context.lineWidth = 3;
+                    CONTEXT1.stroke();
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
-</body>
+                    CONTEXT1.font = '12pt Calibri';                      
+                    CONTEXT1.fillStyle = 'black';                        
+                    CONTEXT1.fillText('B', 165, 17);
+                    CONTEXT1.fillText('D0',110,55);
+                    CONTEXT1.fillText('D1',110,85);
+                    CONTEXT1.fillText('D2',110,145);
+                    CONTEXT1.fillText('D3',110,175);
+                    CONTEXT1.fillText('A',275,65);
+                    CONTEXT1.fillText('D_0',265,105);
+                    CONTEXT1.fillText('D_1',265,130);
+                    CONTEXT1.fillText('Y',350,120);
+                }
+                function gotodiv1(){
+                    document.getElementById("d0").style.display = "none";
+                    document.getElementById("d1").style.display = "block";
+                }
+            </script>
+        </div>
+        <div style=" display: none" id="d1"> 
+            <img src="images/4to1MUX.png"  style="position: absolute;top:50px;left:500px;">
+            <div id="truth_table"  style="width:450px;">
+                <p id="result"><b style="font-size:25px;color:blue;"><u>Q1.Enter the outputs for a 4:1 MUX</u></b></p>
+                <table class="truth_table" id="table" >
+                    <th colspan=3>
+                        CONTROL I/Ps
+                    </th>
+                    <th>
+                        OUTPUT
+                    </th>
+                    <tr>
+                        <td>Enable I/P
+        
+                        </td>
+                        <td>Select 
+        
+                        </td>
+                        <td>
+                            I/P
+                        </td>
+                        <td>O/P
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            E'
+                        </td>
+                        <td>
+                            S<sub>1</sub>
+                        </td>
+                        <td>
+                            S<sub>0</sub>
+                        </td>
+                        <td>Y</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td><select id="ANS1">
+                            <option value="">--none--</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="D0" >D<sub>0</sub></option>
+                            <option value="D1">D<sub>1</sub></option>
+                            <option value="D2" >D<sub>2</sub></option>
+                            <option value="D3">D<sub>3</sub></option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            0
+                        </td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td><select id="ANS2">
+                            <option value="">--none--</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="D0" >D<sub>0</sub></option>
+                            <option value="D1">D<sub>1</sub></option>
+                            <option value="D2" >D<sub>2</sub></option>
+                            <option value="D3">D<sub>3</sub></option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            0
+                        </td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td><select id="ANS3">
+                            <option value="">--none--</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="D0" >D<sub>0</sub></option>
+                            <option value="D1">D<sub>1</sub></option>
+                            <option value="D2" >D<sub>2</sub></option>
+                            <option value="D3">D<sub>3</sub></option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            0
+                        </td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td><select id="ANS4">
+                            <option value="">--none--</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="D0" >D<sub>0</sub></option>
+                            <option value="D1">D<sub>1</sub></option>
+                            <option value="D2" >D<sub>2</sub></option>
+                            <option value="D3">D<sub>3</sub></option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            0
+                        </td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td><select id="ANS5">
+                            <option value="">--none--</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="D0" >D<sub>0</sub></option>
+                            <option value="D1">D<sub>1</sub></option>
+                            <option value="D2" >D<sub>2</sub></option>
+                            <option value="D3">D<sub>3</sub></option>
+                        </select>
+                        </td>
+                    </tr>
+                    
+        
+                </table>
+                <input type="button" value="SUBMIT" id="submit-answer"  style="height:35px;width:70px;font-size:16px" onclick="Check();">
+                <input type="button" value="TRY AGAIN" id="try" style="height:35px;width:100px;font-size:16px" onclick="TRY();">
+                <br>
+                <br>
+                <div id="Q2P3" style="display: none;">  <p><b style="font-size:20px;color:blue;">Q2.<u>Select the correct Boolean expression for the above truth table.</u></b></p>
+                <select id="list1" style="height:25px;width:250px;" onchange="boolcheck();">
+                    <option value="">--none--</option>
+                    <option id="OPTION1" value="wrong">
+                            E'.S<sub>1'</sub>.S<sub>0</sub>.D<sub>0</sub> +  E'.S<sub>1</sub>.S<sub>0'</sub>.D<sub>1</sub> +  E'.S<sub>1</sub>.S<sub>0'</sub>.D<sub>2</sub> +  E'.S<sub>1</sub>.S<sub>0</sub>.D<sub>3</sub>
+                    </option>
+                    <option id="OPTION2" value="wrong">
+                           E'.S<sub>1</sub>.S<sub>0'</sub>.D<sub>0</sub> +  E'.S<sub>1</sub>.S<sub>0'</sub>.D<sub>1</sub> +  E'.S<sub>1'</sub>.S<sub>0'</sub>.D<sub>2</sub> +   E'.S'<sub>1</sub>.S<sub>0</sub>.D<sub>3</sub>  
+        
+                    </option>
+                    <option id="OPTION3" value="correct">
+                            
+                            E'.S<sub>1'</sub>.S<sub>0'</sub>.D<sub>0</sub> +   E'.S<sub>1'</sub>.S<sub>0</sub>.D<sub>1</sub> +   E'.S<sub>1</sub>.S<sub>0'</sub>.D<sub>2</sub> +   E'.S<sub>1</sub>.S<sub>0</sub>.D<sub>3</sub>
+                    </option>
+                    </option>
+                    <option id="OPTION4" value="wrong">
+                            E'.S<sub>1'</sub>.S<sub>0'</sub>.D<sub>0</sub> +   E.S<sub>1</sub>.S<sub>0'</sub>.D<sub>1</sub> +  E.S<sub>1'</sub>.S<sub>0</sub>.D<sub>2</sub> +  E.S<sub>1</sub>.S<sub>0</sub>.D<sub>3</sub>
+                    </option>
+                </select>
+                <p id="boolean_answer"></p>
+            </div>
+        </div>
+            <div id="scorecard" style="position: absolute;left: 550px;top: 440px;">
+                <b><u>SCOREKEEPER</u></b>
+                <table id="SCORE" border="1" width="250" style="background-color: rgb(215, 252, 250);">
+                    <tbody><tr><th>Question</th>
+                    <th>Status</th>
+                    </tr><tr>
+                        <td>Q1.</td>
+                    <td id="SCORE_UPDATE1">
+    
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Q2.</td>
+                            <td id="SCORE_UPDATE2">
+            
+                            </td>
+                            </tr>
+                </tbody></table>
+            </div>
+
+            <script>
+                var truth_table_try = 0;
+                var truth_table_marks = 5;
+        
+
+                var flag = 0;
+                var try_bool = 0;
+                var marks = 5;
+                var ans1=false;
+                var ans2=false;
+        
+                /*  function CheckANS()
+                  {
+                   Check();
+                   boolcheck();
+               }*/
+                function boolcheck() {
+                    var selectedValue = document.getElementById("list1").value;
+        
+                 /*   if (selectedValue == "correct") {
+                        var b = document.getElementById("OPTION4").style.background = "green;"
+                        document.getElementById("boolean_answer").innerHTML = "Correct answer.Your score is" + "  " + (marks - try_bool);
+                        document.getElementById("list1").disabled = true;
+                        ans2=true;
+                        if (ans1==true && ans2==true) {
+                            alert("Proceed to the next step");
+                            flag = 5;
+                        }
+                    } else if (selectedValue == "wrong") {
+                        document.getElementById("boolean_answer").innerHTML = "Wrong Answer,try again.";
+                        try_bool++;
+                    }*/ //Old version
+                    if (selectedValue == "correct") {
+              
+                        //document.getElementById("boolean_answer").innerHTML = "Correct answer.Your score is" + "  " + (marks - try_bool);
+                        document.getElementById("list1").disabled = true;
+                        document.getElementById("SCORE_UPDATE2").style.color = "green";
+                        document.getElementById("SCORE_UPDATE2").innerHTML = "Correct answer.Your score is" + "  " + (marks - try_bool);
+                        ans2=true;
+                        if (ans1==true && ans2==true) {
+                            //document.getElementById("SCORE_UPDATE2").innerHTML = "Correct answer.Your score is" + "  " + (marks - try_bool);
+                            alert("Proceed to the next step.");
+                            flag = 3;
+                            document.getElementById("NEXT").style.display="";
+                        }
+                    }
+                   
+        
+                     else if (selectedValue == "wrong") {
+                       
+                        document.getElementById("SCORE_UPDATE2").style.color = "red";
+                        document.getElementById("SCORE_UPDATE2").innerHTML = "Wrong Answer.Select again.";
+                        document.getElementById("list1")[0].selected=true;
+                        try_bool++;
+                    }
+                }
+        
+                function Check() {
+                    document.getElementById("ANS1").disabled = true;
+                    document.getElementById("ANS2").disabled = true;
+                    document.getElementById("ANS3").disabled = true;
+                    document.getElementById("ANS4").disabled = true;
+                    document.getElementById("ANS5").disabled = true;
+
+        
+                    var answer1 = document.getElementById("ANS1").value;
+                    var answer2 = document.getElementById("ANS2").value;
+                    var answer3 = document.getElementById("ANS3").value;
+                    var answer4 = document.getElementById("ANS4").value;
+                    var answer5 = document.getElementById("ANS5").value;
+        
+        
+                    if (answer1 == "" || answer2 == "" || answer3 == "" || answer4 == "" || answer5=="" ) {
+                        document.getElementById("result").innerHTML = "No Entries";
+                    } 
+                    else if (answer1 == "0" && answer2 == "D0" && answer3 == "D1"  && answer4 == "D2"  && answer5 == "D3" ) {
+                      /*  document.getElementById("result").innerHTML = "Correct Answer";
+                        document.getElementById("result").innerHTML = "Your score is" + " " + truth_table_marks;
+                        document.getElementById("try").disabled = "true";
+                        document.getElementById("submit-answer").disabled = "true";
+                         ans1=true;
+                        if (ans1==true && ans2==true) {
+                            alert("Proceed to the next step");
+                            flag = 5;
+                        }
+        
+                    } else {
+                        document.getElementById("result").innerHTML = "Try Again";
+                    }*/
+                    document.getElementById("SCORE_UPDATE1").style.color = "green";
+                    document.getElementById("SCORE_UPDATE1").innerHTML = "Correct answer.Your score is" + " " + truth_table_marks;
+                    document.getElementById("try").disabled = "true";
+                    document.getElementById("Q2P3").style.display="block";
+                    document.getElementById("Q2P3").style.position="relative";
+                   // document.getElementById("NEXT").style.display="none";
+                    document.getElementById("submit-answer").disabled = "true";
+                     ans1=true;
+                     flag = 3;
+                       
+    
+                } else {
+                   // document.getElementById("result").innerHTML = "Try Again";
+                   document.getElementById("SCORE_UPDATE1").style.color = "red";
+                   document.getElementById("SCORE_UPDATE1").innerHTML = "Wrong Answer.Try Again.";
+                }
+        
+                }
+        
+                function TRY() {
+                    truth_table_marks--; //Decrementing marks on worng answer
+                    truth_table_try++;
+                    document.getElementById("try").value = "Try Again" + "(" + truth_table_try + ")";
+                    document.getElementById("ANS1").disabled = false;
+                    document.getElementById("ANS2").disabled = false;
+                    document.getElementById("ANS3").disabled = false;
+                    document.getElementById("ANS4").disabled = false;
+                    document.getElementById("ANS5").disabled = false;
+        
+                    document.getElementById("ANS1")[0].selected = true;
+                    document.getElementById("ANS2")[0].selected = true;
+                    document.getElementById("ANS3")[0].selected = true;
+                    document.getElementById("ANS4")[0].selected = true;
+                    document.getElementById("ANS5")[0].selected = true;
+        
+        
+                    if (truth_table_try == 5) {
+                        document.getElementById("result").innerHTML = "You've exceeded the maximum number of tries.The answers have been entered in the respective blanks.";
+                        document.getElementById("try").disabled = "true";
+                        document.getElementById("ANS1").value = "0";
+                        document.getElementById("ANS2").value = "D0";
+                        document.getElementById("ANS3").value = "D1";
+                        document.getElementById("ANS4").value = "D2";
+                        document.getElementById("ANS5").value = "D3";
+        
+        
+                        document.getElementById("ANS1").disabled = true;
+                        document.getElementById("ANS2").disabled = true;
+                        document.getElementById("ANS3").disabled = true;
+                        document.getElementById("ANS4").disabled = true;
+                        document.getElementById("ANS5").disabled = true;
+
+        
+        
+                    }
+                }
+        
+        
+            </script>
+        </div>
+        <div style=" display: none" id="d2">
+            <script src="JS/GATES_MUX.js"></script>
+            <script src="JS/MUX_outputgate.js"></script>
+            <br/>
+            <table style="width: 1000px;">
+                <td>
+                    <div id="CONTROL">
+                        <table id=td1 style="border-style:solid; width: 350px;">
+                            <th colspan=2>
+                                Available Gates
+                            </th>
+                            <tr>
+                                <td>  <input type="button" id="MUX" onclick="addMUXgate();" value="MUX" 
+                                        style="background-image:url('images/mux_symbol.png');background-repeat:no-repeat;height:50px;width:100%;background-position:left;background-size:70px 50px;text-align:right;color:blue" ></td>
+                                </td>
+                                <td>
+                                    <input type="button" id="NOT" onclick="addnotgate();" value="NOT"
+                                    style="background-image:url('images/not.png');background-repeat:no-repeat;height:50px; width: 100%;background-position:left;background-size:75px 50px;text-align:right;color:blue"/>  
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="button" id="YC" onclick="adddivgate();" value="Y-connector"
+                                           style="background-image:url('images/y_connector_symbol final.png');background-repeat:no-repeat;height:50px;width:100%;background-position:left;background-size:70px 50px;text-align:right;color:blue"/>
+                                </td>
+                                <td>
+                                        <input type="button" id="GL" onclick="addbulbgate();" value="Green LED"
+                                               style="background-image:url('images/gled.png');background-repeat:no-repeat;height:50px;width:100%;background-position:left;background-size:50px 50px;text-align:right;color:blue"/>
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="button" id="DS" onclick="addoutgate();" value="Digital Switch"
+                                           style="height:50px;width:100%;text-align:right;color:blue;background-position:left;">
+                                </td>
+                            </tr>
+                        </table>
+                        <table id=td2 style="border-style:solid; width: 350px;">
+                            <th colspan=2>
+                                Connections
+                            </th>
+                            <tr>
+                                <td>
+                                    <input type="button" onclick="connector1();" value="Connect op1 to ip1 "
+                                           style="height:40px;width:100%;background-size:50px 50px;font-weight: bold"/>
+                                </td>
+                                <td>
+                                    <input type="button" onclick="connector2();" value="Connect op1 to ip2 "
+                                           style="height:40px;width:100%;background-size:50px 50px;font-weight: bold"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="button" onclick="connector3();" value="Connect op2 to ip2 "
+                                           style="height:40px;width:100%;background-size:50px 50px;font-weight: bold"/>
+                                </td>
+                                <td>
+                                    <input type="button" onclick="connector4();" value="Connect op2 to ip1 "
+                                           style="height:40px;width:100%;background-size:50px 50px;font-weight: bold"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                        <input type="button"  onclick="connectorS_output1();" value="Connect op1 to S"  style="height:40px;width:100%;background-size:50px 50px;font-weight: bold" /> 
+                                </td>
+                                <td>
+                                        <input type="button"  onclick="connectorE_output1();" value="Connect op1 to E"  style="height:40px;width:100%;background-size:50px 50px;font-weight: bold" /> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                        <input type="button"  onclick="connectorS_output2();" value="Connect op2 to S"  style="height:40px;width:100%;background-size:50px 50px;font-weight: bold" /> 
+                                </td>
+                                <td>
+                                        <input type="button"  onclick="connectorE_output2();" value="Connect op2 to E"  style="height:40px;width:100%;background-size:50px 50px;font-weight: bold" /> 
+                                </td>
+                            </tr>
+                          <!---- <tr>
+                                <td>
+                          <         <input type="button" onclick="connector5();" value="Connect op1 to ip3 "
+                                           style="height:50px;width:100%;background-size:50px 50px;font-weight: bold"/>
+                                </td>
+                                <td>
+                                    <input type="button" onclick="connector6();" value="Connect op2 to ip3 "
+                                           style="height:50px;width:100%;background-size:50px 50px;font-weight: bold"/>
+                                </td>
+                            </tr>-->
+                        </table>
+                        <table id=td3 style="border-style:solid; width: 350px;">
+                            <tr>
+                                <td>
+                                    <input type="button" onclick="undoGate();" value="UNDO GATE"
+                                           style="height:40px;width:100%;background-size:50px 50px;text-align:center; color: red; font-weight: bold;"/>
+                                </td>
+                                <td>
+                                    <input type="button" onclick="undoConnection();" value="UNDO LINK"
+                                           style="height:40px;width:100%;background-size:50px 50px; color: red; font-weight: bold;"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="button" onclick="redoGate();" value="REDO GATE"
+                                           style="height:40px;width:100%;background-size:50px 50px;text-align:center; color: darkgreen; font-weight: bold;"/>
+                                </td>
+                                <td>
+                                    <input type="button" onclick="redoConnection();" value="REDO LINK"
+                                           style="height:40px;width:100%;background-size:50px 50px; color: darkgreen; font-weight: bold;"/>
+                                </td>
+                            </tr>
+                        </table>
+                        <table id=td4 style="border-style:solid; width: 350px;">
+                            <tr>
+                                <td colspan="2">
+                                    <input type="button" onclick="startsim1();" value="Start Simulator "
+                                           style="height:40px;width:100%"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="button" onclick="stopsim1();" value="Stop Simulator "
+                                           style="height:40px;width:100%"/>
+                                </td>
+                                <td>
+                                    <input type="button" onclick="reset();" value="Reset " style="height:40px;width:100%"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                <td>
+                    <label id="l1" style="font-size:26px;color:blue;text-align:center"></label>
+                    <br/>
+                    <canvas id="mycanvas" style="border:5px solid black; " width="580" height="506"></canvas>
+                </td>
+                <td>
+                    <div id="tt">
+                        <table class="truth_table" id="truthtable" >
+                            <!-- <th colspan=3> -->
+                            <th colspan=3>
+                                CONTROL I/Ps
+                            </th>
+                            <th>
+                                OUTPUT
+                            </th>
+                            <tr>
+                                <td>Enable I/P
+        
+                                </td>
+                                <td>Select
+        
+                                </td>
+                                <td>I/P</td>
+                                <td>O/P
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    E'
+                                </td>
+                                <td>
+                                    S<sub>1</sub>
+                                </td>
+                                <td>
+                                        S<sub>0</sub>
+                                </td>
+                                <td>Y</td>
+                            </tr>
+                         <!---  <tr>
+                                <td>1</td>
+                                <td>X</td>
+                                <td>0</td>
+                            </tr>-->
+                            <tr>
+                                    <td>
+                                        1
+                                    </td>
+                                    <td>X</td>
+                                    <td>X</td>
+                                    <td>0</td>
+                                </tr>
+                            <tr>
+                                <td>
+                                    0
+                                </td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>D<sub>0</sub></td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    0
+                                </td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>D<sub>1</sub></td>
+                            </tr>
+                            <tr>
+                                    <td>
+                                        0
+                                    </td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>D<sub>2</sub></td>
+                            </tr>
+                            <tr>
+                                    <td>
+                                        0
+                                    </td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>D<sub>3</sub></td>
+                                </tr>    
+                        </table>
+                    </div>
+                </td>
+            </table>
+            <script>
+                var canvas = document.getElementById("mycanvas");
+                var context = canvas.getContext("2d");
+            </script>
+            <script src="JS/mouseevent.ob.js"></script>
+            <script src="JS/GEN_MUX1.js"></script>
+        </div>
+        <button id="NEXT" onclick="next();" style="display:none; width:100px; height:50px; position: relative;">NEXT</button>
+<script>
+    var previousDiv = 0;
+    var currentDiv = 1;
+    var nextDiv = 2;
+
+    function next() {
+
+       if (flag <= nextDiv) {
+            return;
+        }
+        if (nextDiv != 3) {
+            if( nextDiv ==2 )
+            {
+                document.getElementById("NEXT").style.display="none";
+            }
+            document.getElementById("d" + currentDiv).style.display = "none";
+            document.getElementById("d" + nextDiv).style.display = "block";
+            previousDiv++;
+            currentDiv++;
+            nextDiv++;
+        }
+
+    }
+
+    function previous() {
+        if (previousDiv != 0) {
+            document.getElementById("d" + currentDiv).style.display = "none";
+            document.getElementById("d" + previousDiv).style.display = "block";
+            previousDiv--;
+            currentDiv--;
+            nextDiv--;
+        }
+
+    }
+
+</script>
+    </body>
 </html>
